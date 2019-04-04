@@ -178,7 +178,7 @@ Create a file called `launch_screen.xml` in `app/src/main/res/layout` (create th
 </RelativeLayout>
 ```
 
-Customize your launch screen by creating a `launch_screen.png`-file and placing it in an appropriate `drawable`-folder. Android automatically scales drawable, so you do not necessarily need to provide images for all phone densities.
+Customize your launch screen by creating a `launch_screen.png`-file in `app/src/main/res/drawable` (create the `drawable`-folder if it doesn't exist). Android automatically scales drawable, so you do not necessarily need to provide images for all phone densities.
 You can create splash screens in the following folders:
 * `drawable-ldpi`
 * `drawable-mdpi`
